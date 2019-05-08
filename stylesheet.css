@@ -1,0 +1,165 @@
+html, body, div, ul, h1, h2, h3, header, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Avenir', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-container {
+  background-color: #e427bb;
+  width:100%;
+  height: 50px;
+  line-height: 1;
+}
+
+.nav-menu {
+  list-style: none;
+  color:#fff;
+}
+
+.nav-brand {
+  font-size: 2.1em;
+  text-shadow:rgba(99, 40, 99, 0.4) 1px 1px;
+}
+
+.nav-item {
+  display: inline-block; 
+  Position:center;
+  padding: 10px 20px;
+}
+
+.nav-item a:hover {
+  font-size: 1.2em;
+  background-color: #be5983;
+}
+
+.feature-container {
+ background: linear-gradient(rgba(99, 40, 99, 0.4), rgba(255, 255, 255, 0.5));
+}
+
+.feature-img {
+  width:100%;
+  height: 100%;
+  max-width: 100%;
+  min-height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:-2;
+}
+
+.flex-center {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.about-container {
+  position: relative;
+  margin: 40px 50px;
+}
+
+.heading {
+  font-size: 4em;
+  text-shadow: rgb(252, 164, 225) 1px 1px;
+}
+
+.heading-img {
+  margin-top: 30px;
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-text {
+  text-align: center;
+  color: #be5983;
+  font-size: 1.2em;
+  padding: 10px 70px;
+}
+
+.menu-container {
+  text-align: center;
+  color: #be5983;
+  padding: 10px 80px;
+}
+
+figure {
+  display: inline-block;
+}
+
+figcaption {
+  margin-top: 4px;
+  font-size: 1.8em;
+}
+
+figcaption:hover {
+  color:  #943794;
+}
+
+.menu-img {
+  margin-top: 30px;
+  width: 400px;
+  height: auto;
+  border-radius: 35%;
+  /* border: dotted 4px #f08cf0; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3;
+}
+
+.menu-img:hover {
+  box-shadow: 0 8px 16px 0 rgba(99, 40, 99, 0.4);
+}
+
+.contact-container {
+  text-align: center;
+  color: #f8a3d7;
+  margin: 30px 40px;
+}
+
+.contact-menu {
+  list-style: none;
+}
+
+.contact-info {
+  display: inline;
+}
+
+.contact-info a {
+  color: #be5983;
+}
+
+@media only screen and (max-width: 768px) {
+  .feature-text {
+    text-align: center;
+    text-shadow:rgba(99, 40, 99, 0.4) 2px 2px;
+    position: absolute;
+    min-width:100%;
+    min-height: 5em;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 200;
+    top: 20%;
+  }
+
+  .nav-menu {
+    margin: -50px 0 0 -50px;
+    padding: 20px 0 0 80px;
+    font-size: 2.1em;
+  }
+
+  .nav-brand {
+    width: 100%;}
